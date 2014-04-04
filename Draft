@@ -1,0 +1,74 @@
+
+Project Draft
+
+GROUP 6
+SHERIN MATHEWS
+HARIKA VALLURIPALLI 
+ABDUL MUQEET
+
+
+
+
+
+
+
+
+
+
+
+USE CASE DIAGRAMS
+ 
+
+
+
+
+DEPLOYMENT DIAGRAM
+
+Deployment diagrams are mainly used by system engineers.
+These diagrams are used to describe the physical components (hardware), their distribution and association. 
+We can visualize deployment diagrams as the hardware components/nodes on which software components resides.
+
+
+ 
+
+
+
+
+
+
+
+
+CONCEPT DIAGRAM
+
+ 
+
+Choose an “ILITIY”
+We choose performance as our nonfunctional requirement “utility”. There are a number of metrics involved that we considered during our design stage. They are enumerated as follows:
+
+Metrics Involved:
+•	App Load Time: Application load time is not to exceed 5 seconds. Ordering is not to exceed 10 seconds.  Delays between screens are not to exceed 5 seconds.
+•	Usage: The worst thing for an app is to get relegated to the 'app icon graveyard, so usage is pretty important consideration.
+•	Engagement Demographics:
+	Frequency of using the app.
+	Time of using the app.
+
+Getting a sense of these engagement metrics will provide insights into how the app is used, letting us know where we should double-down and where we have weaknesses. This information can help in allocating resources for strengthening the app to drive greater engagement and, thereafter, revenue. It is extremely important to do cohort analysis and be able to measure engagement by different cohorts.
+
+•	Active Users: The app should be engaging app and it should be able to convert more users into active user
+•	Retention Rate: Strive for longevity of mobile app, and pay attention to the app's retention rate, as retention is one of the biggest challenges of mobile apps today, as 65% of people stop using them within three months.
+•	Session Length: Session length on an app can help quantify the depth of a person's relationship with an app. You want a compelling app which leads toward longer sessions.
+•	Revenue per user and user experience are other important performance metrics.
+  
+
+Other non-functional requirements that can be considered are:
+
+1. Reliability
+The device is up to the correct specs to run the application. The user has a good connection to the carrier or Wi-Fi network
+2. Availability
+The application will be available online and offline but orders will not be processed unless the user has connectivity to the carrier or Wi-Fi network.
+3. Security
+256-Bit Encryption Secure Socket Layer will be used on all credit card and account transactions.
+4. Maintainability
+The application will be written in an object-oriented fashion to support easy decoupling of classes to support easy growth and flexibility.
+5. Portability
+The Android Version will be written in Java and compatible with many other Android Platforms in the future. The iOS Version will be written in Visual C++ and compatible with many other iOS Platforms in the future.
